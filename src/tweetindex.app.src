@@ -1,0 +1,16 @@
+{application, tweetindex, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {modules, []},
+    {registered, [tweetindex_sup]},
+    {mod, {tweetindex_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy
+    ]},
+    {env,[]},
+    {maintainers, []},
+    {licenses, []},
+    {links, []}
+]}.
